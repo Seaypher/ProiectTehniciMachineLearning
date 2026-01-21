@@ -24,7 +24,6 @@ from sklearn.metrics import (
     confusion_matrix, roc_auc_score, roc_curve,
     mean_absolute_error, mean_squared_error, r2_score
 )
-import xgboost as xgb
 import joblib
 import io
 
@@ -1499,4 +1498,5 @@ if 'results' in st.session_state:
 
 # Finalizare - mesaj daca nu sunt date incarcate
 if df is None:
+
     st.info("Pentru a folosi functionalitatile ML, te rog incarca mai intai un fisier CSV sau Excel in sectiunea 1.")
