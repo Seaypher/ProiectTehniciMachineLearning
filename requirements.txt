@@ -1,24 +1,10 @@
-# Baze de date și calcul numeric
-numpy==1.24.0
-pandas==2.0.0
-
-# Framework web și vizualizare
 streamlit==1.28.0
+pandas==2.0.0
+numpy==1.24.0
 plotly==5.17.0
-
-# Machine Learning și preprocesare
 scikit-learn==1.3.0
-# xgboost==2.0.0  # COMENTAT - nu este esențial
-
-# Serializare și utilitare
+xgboost==2.0.0
 joblib==1.3.0
-
-# Vizualizare suplimentară
 matplotlib==3.7.0
 seaborn==0.12.0
-
-# Fișiere Excel
 openpyxl==3.1.0
-
-# Pentru compatibilitate
-typing-extensions==4.7.0
